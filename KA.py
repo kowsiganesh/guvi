@@ -1,0 +1,5 @@
+T,S=input().split()
+K=int(T)
+A=int(S)
+p=pow(K,A)
+print(p)
