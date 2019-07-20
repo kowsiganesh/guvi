@@ -1,0 +1,10 @@
+X1=int(input())
+Y1=X1
+a1=0
+while(Y1>0):
+   a1=a1+(Y1%10)**3
+   Y1=Y1//10
+if(a1==X1):
+  print('yes')
+else:
+  print('no')
