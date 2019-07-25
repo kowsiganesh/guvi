@@ -2,7 +2,7 @@
     
 import statistics as st
 count=int(input(" "))
-arr=list(map(int,input().split()))
+arr=list(map(int,input(" ").split(" ")))
 res=False
 for i in range(1,count):
     l1=arr[:i]
